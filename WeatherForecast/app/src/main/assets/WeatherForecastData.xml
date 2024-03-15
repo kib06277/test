@@ -941,7 +941,7 @@
             <date>2024-03-20</date>
             <high_temperature>35°C</high_temperature>
             <low_temperature>27°C</low_temperature>
-            <air_quality>良好</air_quality>
+            <air_quality>差勁</air_quality>
         </daily>
         <hourly>
             <time>00:00</time>
@@ -1074,7 +1074,7 @@
             <date>2024-03-21</date>
             <high_temperature>36°C</high_temperature>
             <low_temperature>28°C</low_temperature>
-            <air_quality>良好</air_quality>
+            <air_quality>差勁</air_quality>
         </daily>
         <hourly>
             <time>00:00</time>
@@ -1207,7 +1207,7 @@
             <date>2024-03-22</date>
             <high_temperature>37°C</high_temperature>
             <low_temperature>29°C</low_temperature>
-            <air_quality>良好</air_quality>
+            <air_quality>差勁</air_quality>
         </daily>
         <hourly>
             <time>00:00</time>
@@ -1340,7 +1340,7 @@
             <date>2024-03-23</date>
             <high_temperature>38°C</high_temperature>
             <low_temperature>30°C</low_temperature>
-            <air_quality>良好</air_quality>
+            <air_quality>差勁</air_quality>
         </daily>
         <hourly>
             <time>00:00</time>

@@ -1,9 +1,14 @@
 package edu.hcvs.weatherforecast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.TextView;
+
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
@@ -22,15 +27,51 @@ import java.util.List;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
+import edu.hcvs.weatherforecast.adapter.MyAdapter;
 import edu.hcvs.weatherforecast.data.WeatherData;
 
+//首頁
 public class MainActivity extends AppCompatActivity {
+
+    //基本宣告
+    TextView City , Time;
+    RecyclerView recyclerview;
+    List<WeatherData> weatherDataList; //資料儲存容器
+    MyAdapter mAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        readXMLFromAssets(this); //將 xml 讀取出來
+        xmltocode(); //layout xml 和程式碼關聯
+        weatherDataList = readXMLFromAssets(this); //將 xml 讀取出來
+        setViewData(); //設定畫面資料
+    }
+
+
+    //layout xml 和程式碼關聯
+    public void xmltocode(){
+        City = findViewById(R.id.City);
+        Time = findViewById(R.id.Time);
+        recyclerview = findViewById(R.id.recyclerview);
+    }
+
+    //設定畫面資料
+    public void setViewData(){
+        try {
+            Log.i("Hello" , "location = " + weatherDataList.get(0).weather.location);
+            City.setText(weatherDataList.get(0).weather.location);
+            Log.i("Hello" , "date = " + weatherDataList.get(0).weather.forecast.get(0).daily.date);
+            Time.setText(weatherDataList.get(0).weather.forecast.get(0).daily.date);
+            recyclerview = findViewById(R.id.recyclerview);
+            mAdapter = new MyAdapter(weatherDataList);
+            final LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+            layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
+            recyclerview.setLayoutManager(layoutManager);
+            recyclerview.setAdapter(mAdapter);
+        } catch (Exception e) {
+            Log.i("Hello" , "e = " + e);
+        }
     }
 
     //讀取 Assets xml
