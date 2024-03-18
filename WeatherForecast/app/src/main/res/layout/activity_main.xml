@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg"
     tools:context=".MainActivity">
 
     <TextView
@@ -13,7 +14,10 @@
         android:layout_height="wrap_content"
         android:text="@string/WeatherTitle"
         android:layout_margin="@dimen/distance_10"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txtsize_32"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"/>
 
     <TextView
@@ -21,25 +25,58 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/City"
-        android:layout_margin="@dimen/distance_10"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintLeft_toRightOf="@+id/WeatherTitle"/>
+        android:textColor="@color/white"
+        android:textSize="@dimen/txtsize_24"
+        app:layout_constraintTop_toBottomOf="@+id/WeatherTitle"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
 
     <TextView
-        android:id="@+id/Time"
+        android:id="@+id/temperature"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Time"
-        android:layout_margin="@dimen/distance_10"
-        app:layout_constraintTop_toBottomOf="@+id/WeatherTitle"
+        android:text="@string/temperature"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txtsize_36"
+        app:layout_constraintTop_toBottomOf="@+id/City"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/temperature_higtAndlow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/temperature"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txtsize_32"
+        app:layout_constraintTop_toBottomOf="@+id/temperature"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/air_quality"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/air_quality"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txtsize_32"
+        app:layout_constraintTop_toBottomOf="@+id/temperature_higtAndlow"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"/>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerview"
+        android:id="@+id/recyclerview_everytime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/air_quality"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:orientation="vertical"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_everyday"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginTop="@dimen/distance_10"
-        app:layout_constraintTop_toBottomOf="@+id/Time"
+        app:layout_constraintTop_toBottomOf="@+id/recyclerview_everytime"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent" />
 

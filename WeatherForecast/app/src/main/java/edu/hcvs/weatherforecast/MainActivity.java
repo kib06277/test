@@ -27,17 +27,19 @@ import java.util.List;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
-import edu.hcvs.weatherforecast.adapter.MyAdapter;
+import edu.hcvs.weatherforecast.adapter.WeatherEverydayAdapter;
+import edu.hcvs.weatherforecast.adapter.WeatherEverytimeAdapter;
 import edu.hcvs.weatherforecast.data.WeatherData;
 
 //首頁
 public class MainActivity extends AppCompatActivity {
 
     //基本宣告
-    TextView City , Time;
-    RecyclerView recyclerview;
+    TextView WeatherTitle , City , temperature , temperature_higtAndlow , air_quality;
+    RecyclerView recyclerview_everytime , recyclerview_everyday;
     List<WeatherData> weatherDataList; //資料儲存容器
-    MyAdapter mAdapter;
+    WeatherEverytimeAdapter weathereverytimeadapter;
+    WeatherEverydayAdapter weathereverydayadapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,26 +53,40 @@ public class MainActivity extends AppCompatActivity {
 
     //layout xml 和程式碼關聯
     public void xmltocode(){
+        WeatherTitle = findViewById(R.id.WeatherTitle);
         City = findViewById(R.id.City);
-        Time = findViewById(R.id.Time);
-        recyclerview = findViewById(R.id.recyclerview);
+        temperature = findViewById(R.id.temperature);
+        temperature_higtAndlow = findViewById(R.id.temperature_higtAndlow);
+        air_quality = findViewById(R.id.air_quality);
+        recyclerview_everytime = findViewById(R.id.recyclerview_everytime);
+        recyclerview_everyday = findViewById(R.id.recyclerview_everyday);
     }
 
     //設定畫面資料
     public void setViewData(){
         try {
-            Log.i("Hello" , "location = " + weatherDataList.get(0).weather.location);
             City.setText(weatherDataList.get(0).weather.location);
-            Log.i("Hello" , "date = " + weatherDataList.get(0).weather.forecast.get(0).daily.date);
-            Time.setText(weatherDataList.get(0).weather.forecast.get(0).daily.date);
-            recyclerview = findViewById(R.id.recyclerview);
-            mAdapter = new MyAdapter(weatherDataList);
-            final LinearLayoutManager layoutManager = new LinearLayoutManager(this);
-            layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
-            recyclerview.setLayoutManager(layoutManager);
-            recyclerview.setAdapter(mAdapter);
+            temperature.setText(weatherDataList.get(0).weather.current.temperature);
+            String high_Temperature = weatherDataList.get(0).weather.forecast.get(0).daily.high_temperature;
+            String low_Temperature = weatherDataList.get(0).weather.forecast.get(0).daily.low_temperature;
+            temperature_higtAndlow.setText("最高 " + high_Temperature + "最低" + low_Temperature);
+            air_quality.setText(weatherDataList.get(0).weather.forecast.get(0).daily.air_quality);
+
+            //顯示今天每小時的氣溫
+            weathereverytimeadapter = new WeatherEverytimeAdapter(weatherDataList.get(0).weather.forecast.get(0).hourly);
+            final LinearLayoutManager layoutManager_everytime = new LinearLayoutManager(this);
+            layoutManager_everytime.setOrientation(LinearLayoutManager.HORIZONTAL);
+            recyclerview_everytime.setLayoutManager(layoutManager_everytime);
+            recyclerview_everytime.setAdapter(weathereverytimeadapter);
+
+            //顯示每周氣溫
+            weathereverydayadapter = new WeatherEverydayAdapter(weatherDataList.get(0).weather.forecast);
+            final LinearLayoutManager layoutManager_everyday = new LinearLayoutManager(this);
+            layoutManager_everyday.setOrientation(LinearLayoutManager.VERTICAL);
+            recyclerview_everyday.setLayoutManager(layoutManager_everyday);
+            recyclerview_everyday.setAdapter(weathereverydayadapter);
         } catch (Exception e) {
-            Log.i("Hello" , "e = " + e);
+            Log.i("WeatherError" , "e = " + e);
         }
     }
 
@@ -90,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
             List<WeatherData> Weather = gson.fromJson(json, listType); //將字串轉乘 gson 格式
             return Weather;
         } catch (Exception e) {
-            Log.i("Hello" , "e = " + e);
+            Log.i("WeatherError" , "e = " + e);
             e.printStackTrace();
             return null;
         }
@@ -113,7 +129,9 @@ public class MainActivity extends AppCompatActivity {
 
             // 組裝每日天氣情況
             JSONArray forecastArray = new JSONArray();
-            forecastArray.put(parseForecast(root));
+            for(int i = 0 ; i < root.getElementsByTagName("forecast").getLength() ; i++) {
+                forecastArray.put(parseForecast(root , i));
+            }
 
             // 組裝 forecast
             weather.put("forecast", forecastArray);
@@ -121,7 +139,7 @@ public class MainActivity extends AppCompatActivity {
             // 組裝 weather
             jsonObject.put("weather", weather);
         } catch (Exception e) {
-            Log.i("Hello" , "e = " + e);
+            Log.i("WeatherError" , "e = " + e);
             e.printStackTrace();
         }
         return jsonObject;
@@ -137,9 +155,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //讀取 xml 格式轉換成 json 並組裝
-    private static JSONObject parseForecast(Element root) throws JSONException {
+    private static JSONObject parseForecast(Element root , int i) throws JSONException {
         JSONObject forecast = new JSONObject();
-        Element forecastElement = (Element) root.getElementsByTagName("forecast").item(0); //讀取 xml forecast 值
+        Element forecastElement = (Element) root.getElementsByTagName("forecast").item(i); //讀取 xml forecast 值
         NodeList dailyList = forecastElement.getElementsByTagName("daily"); //讀取 xml daily 值
         Element dailyElement = (Element) dailyList.item(0);
         JSONObject dailyObject = new JSONObject();
@@ -156,7 +174,7 @@ public class MainActivity extends AppCompatActivity {
             JSONObject hourlyObject = new JSONObject();
             hourlyObject.put("time", hourlyElement.getElementsByTagName("time").item(0).getTextContent()); //讀取 time 並組裝成 json
             hourlyObject.put("temperature", hourlyElement.getElementsByTagName("temperature").item(0).getTextContent()); //讀取 temperature 並組裝成 json
-            hourlyObject.put("weather_status", hourlyElement.getElementsByTagName("weather_status").item(0).getTextContent()); //讀取 weather_status 並組裝成 json
+            hourlyObject.put("status", hourlyElement.getElementsByTagName("status").item(0).getTextContent()); //讀取 weather_status 並組裝成 json
             hourlyArray.put(hourlyObject);
         }
         forecast.put("hourly", hourlyArray);

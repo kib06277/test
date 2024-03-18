@@ -15,127 +15,127 @@
         <hourly>
             <time>00:00</time>
             <temperature>0°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>01:00</time>
             <temperature>1°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>02:00</time>
             <temperature>2°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>03:00</time>
             <temperature>3°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>04:00</time>
             <temperature>4°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>05:00</time>
             <temperature>5°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>06:00</time>
             <temperature>6°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>07:00</time>
             <temperature>7°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>08:00</time>
             <temperature>8°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>09:00</time>
             <temperature>9°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>10:00</time>
             <temperature>10°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>11:00</time>
             <temperature>11°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>12:00</time>
             <temperature>12°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>13:00</time>
             <temperature>13°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>14:00</time>
             <temperature>14°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>15:00</time>
             <temperature>15°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>16:00</time>
             <temperature>16°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>17:00</time>
             <temperature>17°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>18:00</time>
             <temperature>18°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>19:00</time>
             <temperature>19°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>20:00</time>
             <temperature>20°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>21:00</time>
             <temperature>21°C</temperature>
-            <weather_status>晴</weather_status>
+            <status>晴</status>
         </hourly>
         <hourly>
             <time>22:00</time>
             <temperature>22°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>23:00</time>
             <temperature>23°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>24:00</time>
             <temperature>24°C</temperature>
-            <weather_status>冰雹</weather_status>
+            <status>冰雹</status>
         </hourly>
     </forecast>
     <forecast>
@@ -143,132 +143,132 @@
             <date>2024-03-14</date>
             <high_temperature>29°C</high_temperature>
             <low_temperature>21°C</low_temperature>
-            <air_quality>良好</air_quality>
+            <air_quality>尚可</air_quality>
         </daily>
         <hourly>
             <time>00:00</time>
             <temperature>0°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>01:00</time>
             <temperature>1°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>02:00</time>
             <temperature>2°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>03:00</time>
             <temperature>3°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>04:00</time>
             <temperature>4°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>05:00</time>
             <temperature>5°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>06:00</time>
             <temperature>6°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>07:00</time>
             <temperature>7°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>08:00</time>
             <temperature>8°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>09:00</time>
             <temperature>9°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>10:00</time>
             <temperature>10°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>11:00</time>
             <temperature>11°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>12:00</time>
             <temperature>12°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>13:00</time>
             <temperature>13°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>14:00</time>
             <temperature>14°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>15:00</time>
             <temperature>15°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>16:00</time>
             <temperature>16°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>17:00</time>
             <temperature>17°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>18:00</time>
             <temperature>18°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>19:00</time>
             <temperature>19°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>20:00</time>
             <temperature>20°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>21:00</time>
             <temperature>21°C</temperature>
-            <weather_status>晴</weather_status>
+            <status>晴</status>
         </hourly>
         <hourly>
             <time>22:00</time>
             <temperature>22°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>23:00</time>
             <temperature>23°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>24:00</time>
             <temperature>24°C</temperature>
-            <weather_status>冰雹</weather_status>
+            <status>冰雹</status>
         </hourly>
     </forecast>
     <forecast>
@@ -276,132 +276,132 @@
             <date>2024-03-15</date>
             <high_temperature>30°C</high_temperature>
             <low_temperature>22°C</low_temperature>
-            <air_quality>良好</air_quality>
+            <air_quality>差勁</air_quality>
         </daily>
         <hourly>
             <time>00:00</time>
             <temperature>0°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>01:00</time>
             <temperature>1°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>02:00</time>
             <temperature>2°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>03:00</time>
             <temperature>3°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>04:00</time>
             <temperature>4°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>05:00</time>
             <temperature>5°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>06:00</time>
             <temperature>6°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>07:00</time>
             <temperature>7°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>08:00</time>
             <temperature>8°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>09:00</time>
             <temperature>9°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>10:00</time>
             <temperature>10°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>11:00</time>
             <temperature>11°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>12:00</time>
             <temperature>12°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>13:00</time>
             <temperature>13°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>14:00</time>
             <temperature>14°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>15:00</time>
             <temperature>15°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>16:00</time>
             <temperature>16°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>17:00</time>
             <temperature>17°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>18:00</time>
             <temperature>18°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>19:00</time>
             <temperature>19°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>20:00</time>
             <temperature>20°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>21:00</time>
             <temperature>21°C</temperature>
-            <weather_status>晴</weather_status>
+            <status>晴</status>
         </hourly>
         <hourly>
             <time>22:00</time>
             <temperature>22°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>23:00</time>
             <temperature>23°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>24:00</time>
             <temperature>24°C</temperature>
-            <weather_status>冰雹</weather_status>
+            <status>冰雹</status>
         </hourly>
     </forecast>
     <forecast>
@@ -414,127 +414,127 @@
         <hourly>
             <time>00:00</time>
             <temperature>0°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>01:00</time>
             <temperature>1°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>02:00</time>
             <temperature>2°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>03:00</time>
             <temperature>3°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>04:00</time>
             <temperature>4°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>05:00</time>
             <temperature>5°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>06:00</time>
             <temperature>6°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>07:00</time>
             <temperature>7°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>08:00</time>
             <temperature>8°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>09:00</time>
             <temperature>9°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>10:00</time>
             <temperature>10°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>11:00</time>
             <temperature>11°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>12:00</time>
             <temperature>12°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>13:00</time>
             <temperature>13°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>14:00</time>
             <temperature>14°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>15:00</time>
             <temperature>15°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>16:00</time>
             <temperature>16°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>17:00</time>
             <temperature>17°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>18:00</time>
             <temperature>18°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>19:00</time>
             <temperature>19°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>20:00</time>
             <temperature>20°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>21:00</time>
             <temperature>21°C</temperature>
-            <weather_status>晴</weather_status>
+            <status>晴</status>
         </hourly>
         <hourly>
             <time>22:00</time>
             <temperature>22°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>23:00</time>
             <temperature>23°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>24:00</time>
             <temperature>24°C</temperature>
-            <weather_status>冰雹</weather_status>
+            <status>冰雹</status>
         </hourly>
     </forecast>
     <forecast>
@@ -547,127 +547,127 @@
         <hourly>
             <time>00:00</time>
             <temperature>0°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>01:00</time>
             <temperature>1°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>02:00</time>
             <temperature>2°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>03:00</time>
             <temperature>3°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>04:00</time>
             <temperature>4°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>05:00</time>
             <temperature>5°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>06:00</time>
             <temperature>6°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>07:00</time>
             <temperature>7°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>08:00</time>
             <temperature>8°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>09:00</time>
             <temperature>9°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>10:00</time>
             <temperature>10°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>11:00</time>
             <temperature>11°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>12:00</time>
             <temperature>12°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>13:00</time>
             <temperature>13°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>14:00</time>
             <temperature>14°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>15:00</time>
             <temperature>15°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>16:00</time>
             <temperature>16°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>17:00</time>
             <temperature>17°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>18:00</time>
             <temperature>18°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>19:00</time>
             <temperature>19°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>20:00</time>
             <temperature>20°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>21:00</time>
             <temperature>21°C</temperature>
-            <weather_status>晴</weather_status>
+            <status>晴</status>
         </hourly>
         <hourly>
             <time>22:00</time>
             <temperature>22°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>23:00</time>
             <temperature>23°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>24:00</time>
             <temperature>24°C</temperature>
-            <weather_status>冰雹</weather_status>
+            <status>冰雹</status>
         </hourly>
     </forecast>
     <forecast>
@@ -675,132 +675,132 @@
             <date>2024-03-18</date>
             <high_temperature>33°C</high_temperature>
             <low_temperature>25°C</low_temperature>
-            <air_quality>良好</air_quality>
+            <air_quality>差勁</air_quality>
         </daily>
         <hourly>
             <time>00:00</time>
             <temperature>0°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>01:00</time>
             <temperature>1°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>02:00</time>
             <temperature>2°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>03:00</time>
             <temperature>3°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>04:00</time>
             <temperature>4°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>05:00</time>
             <temperature>5°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>06:00</time>
             <temperature>6°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>07:00</time>
             <temperature>7°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>08:00</time>
             <temperature>8°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>09:00</time>
             <temperature>9°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>10:00</time>
             <temperature>10°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>11:00</time>
             <temperature>11°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>12:00</time>
             <temperature>12°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>13:00</time>
             <temperature>13°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>14:00</time>
             <temperature>14°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>15:00</time>
             <temperature>15°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>16:00</time>
             <temperature>16°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>17:00</time>
             <temperature>17°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>18:00</time>
             <temperature>18°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>19:00</time>
             <temperature>19°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>20:00</time>
             <temperature>20°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>21:00</time>
             <temperature>21°C</temperature>
-            <weather_status>晴</weather_status>
+            <status>晴</status>
         </hourly>
         <hourly>
             <time>22:00</time>
             <temperature>22°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>23:00</time>
             <temperature>23°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>24:00</time>
             <temperature>24°C</temperature>
-            <weather_status>冰雹</weather_status>
+            <status>冰雹</status>
         </hourly>
     </forecast>
     <forecast>
@@ -808,132 +808,132 @@
             <date>2024-03-19</date>
             <high_temperature>34°C</high_temperature>
             <low_temperature>26°C</low_temperature>
-            <air_quality>良好</air_quality>
+            <air_quality>尚可</air_quality>
         </daily>
         <hourly>
             <time>00:00</time>
             <temperature>0°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>01:00</time>
             <temperature>1°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>02:00</time>
             <temperature>2°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>03:00</time>
             <temperature>3°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>04:00</time>
             <temperature>4°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>05:00</time>
             <temperature>5°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>06:00</time>
             <temperature>6°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>07:00</time>
             <temperature>7°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>08:00</time>
             <temperature>8°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>09:00</time>
             <temperature>9°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>10:00</time>
             <temperature>10°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>11:00</time>
             <temperature>11°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>12:00</time>
             <temperature>12°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>13:00</time>
             <temperature>13°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>14:00</time>
             <temperature>14°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>15:00</time>
             <temperature>15°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>16:00</time>
             <temperature>16°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>17:00</time>
             <temperature>17°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>18:00</time>
             <temperature>18°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>19:00</time>
             <temperature>19°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>20:00</time>
             <temperature>20°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>21:00</time>
             <temperature>21°C</temperature>
-            <weather_status>晴</weather_status>
+            <status>晴</status>
         </hourly>
         <hourly>
             <time>22:00</time>
             <temperature>22°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>23:00</time>
             <temperature>23°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>24:00</time>
             <temperature>24°C</temperature>
-            <weather_status>冰雹</weather_status>
+            <status>冰雹</status>
         </hourly>
     </forecast>
     <forecast>
@@ -946,127 +946,127 @@
         <hourly>
             <time>00:00</time>
             <temperature>0°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>01:00</time>
             <temperature>1°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>02:00</time>
             <temperature>2°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>03:00</time>
             <temperature>3°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>04:00</time>
             <temperature>4°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>05:00</time>
             <temperature>5°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>06:00</time>
             <temperature>6°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>07:00</time>
             <temperature>7°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>08:00</time>
             <temperature>8°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>09:00</time>
             <temperature>9°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>10:00</time>
             <temperature>10°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>11:00</time>
             <temperature>11°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>12:00</time>
             <temperature>12°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>13:00</time>
             <temperature>13°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>14:00</time>
             <temperature>14°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>15:00</time>
             <temperature>15°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>16:00</time>
             <temperature>16°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>17:00</time>
             <temperature>17°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>18:00</time>
             <temperature>18°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>19:00</time>
             <temperature>19°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>20:00</time>
             <temperature>20°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>21:00</time>
             <temperature>21°C</temperature>
-            <weather_status>晴</weather_status>
+            <status>晴</status>
         </hourly>
         <hourly>
             <time>22:00</time>
             <temperature>22°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>23:00</time>
             <temperature>23°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>24:00</time>
             <temperature>24°C</temperature>
-            <weather_status>冰雹</weather_status>
+            <status>冰雹</status>
         </hourly>
     </forecast>
     <forecast>
@@ -1074,132 +1074,132 @@
             <date>2024-03-21</date>
             <high_temperature>36°C</high_temperature>
             <low_temperature>28°C</low_temperature>
-            <air_quality>差勁</air_quality>
+            <air_quality>良好</air_quality>
         </daily>
         <hourly>
             <time>00:00</time>
             <temperature>0°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>01:00</time>
             <temperature>1°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>02:00</time>
             <temperature>2°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>03:00</time>
             <temperature>3°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>04:00</time>
             <temperature>4°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>05:00</time>
             <temperature>5°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>06:00</time>
             <temperature>6°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>07:00</time>
             <temperature>7°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>08:00</time>
             <temperature>8°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>09:00</time>
             <temperature>9°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>10:00</time>
             <temperature>10°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>11:00</time>
             <temperature>11°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>12:00</time>
             <temperature>12°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>13:00</time>
             <temperature>13°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>14:00</time>
             <temperature>14°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>15:00</time>
             <temperature>15°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>16:00</time>
             <temperature>16°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>17:00</time>
             <temperature>17°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>18:00</time>
             <temperature>18°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>19:00</time>
             <temperature>19°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>20:00</time>
             <temperature>20°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>21:00</time>
             <temperature>21°C</temperature>
-            <weather_status>晴</weather_status>
+            <status>晴</status>
         </hourly>
         <hourly>
             <time>22:00</time>
             <temperature>22°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>23:00</time>
             <temperature>23°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>24:00</time>
             <temperature>24°C</temperature>
-            <weather_status>冰雹</weather_status>
+            <status>冰雹</status>
         </hourly>
     </forecast>
     <forecast>
@@ -1212,127 +1212,127 @@
         <hourly>
             <time>00:00</time>
             <temperature>0°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>01:00</time>
             <temperature>1°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>02:00</time>
             <temperature>2°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>03:00</time>
             <temperature>3°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>04:00</time>
             <temperature>4°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>05:00</time>
             <temperature>5°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>06:00</time>
             <temperature>6°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>07:00</time>
             <temperature>7°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>08:00</time>
             <temperature>8°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>09:00</time>
             <temperature>9°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>10:00</time>
             <temperature>10°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>11:00</time>
             <temperature>11°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>12:00</time>
             <temperature>12°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>13:00</time>
             <temperature>13°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>14:00</time>
             <temperature>14°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>15:00</time>
             <temperature>15°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>16:00</time>
             <temperature>16°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>17:00</time>
             <temperature>17°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>18:00</time>
             <temperature>18°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>19:00</time>
             <temperature>19°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>20:00</time>
             <temperature>20°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>21:00</time>
             <temperature>21°C</temperature>
-            <weather_status>晴</weather_status>
+            <status>晴</status>
         </hourly>
         <hourly>
             <time>22:00</time>
             <temperature>22°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>23:00</time>
             <temperature>23°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>24:00</time>
             <temperature>24°C</temperature>
-            <weather_status>冰雹</weather_status>
+            <status>冰雹</status>
         </hourly>
     </forecast>
     <forecast>
@@ -1345,127 +1345,127 @@
         <hourly>
             <time>00:00</time>
             <temperature>0°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>01:00</time>
             <temperature>1°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>02:00</time>
             <temperature>2°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>03:00</time>
             <temperature>3°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>04:00</time>
             <temperature>4°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>05:00</time>
             <temperature>5°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>06:00</time>
             <temperature>6°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>07:00</time>
             <temperature>7°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>08:00</time>
             <temperature>8°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>09:00</time>
             <temperature>9°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>10:00</time>
             <temperature>10°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>11:00</time>
             <temperature>11°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>12:00</time>
             <temperature>12°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>13:00</time>
             <temperature>13°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>14:00</time>
             <temperature>14°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>15:00</time>
             <temperature>15°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>16:00</time>
             <temperature>16°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>17:00</time>
             <temperature>17°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>18:00</time>
             <temperature>18°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>19:00</time>
             <temperature>19°C</temperature>
-            <weather_status>晴天</weather_status>
+            <status>晴天</status>
         </hourly>
         <hourly>
             <time>20:00</time>
             <temperature>20°C</temperature>
-            <weather_status>打雷</weather_status>
+            <status>打雷</status>
         </hourly>
         <hourly>
             <time>21:00</time>
             <temperature>21°C</temperature>
-            <weather_status>晴</weather_status>
+            <status>晴</status>
         </hourly>
         <hourly>
             <time>22:00</time>
             <temperature>22°C</temperature>
-            <weather_status>多雲</weather_status>
+            <status>多雲</status>
         </hourly>
         <hourly>
             <time>23:00</time>
             <temperature>23°C</temperature>
-            <weather_status>陣雨</weather_status>
+            <status>陣雨</status>
         </hourly>
         <hourly>
             <time>24:00</time>
             <temperature>24°C</temperature>
-            <weather_status>冰雹</weather_status>
+            <status>冰雹</status>
         </hourly>
     </forecast>
 </weather>

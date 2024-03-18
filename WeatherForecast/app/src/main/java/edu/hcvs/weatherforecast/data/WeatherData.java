@@ -92,9 +92,9 @@ public class WeatherData {
         //每日預報
         public static class Daily {
             public String date; //日期
-            public String highTemperature; //最高溫度
-            public String lowTemperature; //最低溫度
-            public String airQuality; // 空氣品質
+            public String high_temperature; //最高溫度
+            public String low_temperature; //最低溫度
+            public String air_quality; // 空氣品質
 
             public String getDate() {
                 return date;
@@ -104,28 +104,28 @@ public class WeatherData {
                 this.date = date;
             }
 
-            public String getHighTemperature() {
-                return highTemperature;
+            public String getHigh_temperature() {
+                return high_temperature;
             }
 
-            public void setHighTemperature(String highTemperature) {
-                this.highTemperature = highTemperature;
+            public void setHigh_temperature(String high_temperature) {
+                this.high_temperature = high_temperature;
             }
 
-            public String getLowTemperature() {
-                return lowTemperature;
+            public String getLow_temperature() {
+                return low_temperature;
             }
 
-            public void setLowTemperature(String lowTemperature) {
-                this.lowTemperature = lowTemperature;
+            public void setLow_temperature(String low_temperature) {
+                this.low_temperature = low_temperature;
             }
 
-            public String getAirQuality() {
-                return airQuality;
+            public String getAir_quality() {
+                return air_quality;
             }
 
-            public void setAirQuality(String airQuality) {
-                this.airQuality = airQuality;
+            public void setAir_quality(String air_quality) {
+                this.air_quality = air_quality;
             }
         }
 
@@ -133,7 +133,7 @@ public class WeatherData {
         public static class Hourly {
             public String time; //目前時間
             public String temperature; //目前溫度
-            public String weatherStatus; //目前天氣狀況
+            public String status; //目前天氣狀況
 
             public String getTime() {
                 return time;
@@ -151,12 +151,12 @@ public class WeatherData {
                 this.temperature = temperature;
             }
 
-            public String getWeatherStatus() {
-                return weatherStatus;
+            public String getStatus() {
+                return status;
             }
 
-            public void setWeatherStatus(String weatherStatus) {
-                this.weatherStatus = weatherStatus;
+            public void setStatus(String status) {
+                this.status = status;
             }
         }
     }

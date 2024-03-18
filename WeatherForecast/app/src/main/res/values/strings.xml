@@ -1,10 +1,11 @@
 <resources>
     <string name="app_name">WeatherForecast</string>
     <string name="app_name_ch">技能競賽氣象站</string>
-    <string name="WeatherTitle">10 日天氣</string>
+    <string name="WeatherTitle">我的位置</string>
     <string name="City">城市</string>
     <string name="Time">目前時間</string>
     <string name="Day">星期</string>
     <string name="temperature">溫度</string>
     <string name="weather_status">天氣狀況</string>
+    <string name="air_quality">空氣品質</string>
 </resources>
